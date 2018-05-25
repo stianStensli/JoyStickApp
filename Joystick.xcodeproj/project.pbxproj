@@ -12,6 +12,8 @@
 		27320B2220B88B5500AF6729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27320B2020B88B5500AF6729 /* Main.storyboard */; };
 		27320B2420B88B5600AF6729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27320B2320B88B5600AF6729 /* Assets.xcassets */; };
 		27320B2720B88B5600AF6729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27320B2520B88B5600AF6729 /* LaunchScreen.storyboard */; };
+		27320B2F20B88FA500AF6729 /* ExitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27320B2E20B88FA500AF6729 /* ExitAnimation.swift */; };
+		27320B3120B8928900AF6729 /* JoyStickController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27320B3020B8928900AF6729 /* JoyStickController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		27320B2320B88B5600AF6729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27320B2620B88B5600AF6729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27320B2820B88B5600AF6729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27320B2E20B88FA500AF6729 /* ExitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitAnimation.swift; sourceTree = "<group>"; };
+		27320B3020B8928900AF6729 /* JoyStickController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyStickController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				27320B2320B88B5600AF6729 /* Assets.xcassets */,
 				27320B2520B88B5600AF6729 /* LaunchScreen.storyboard */,
 				27320B2820B88B5600AF6729 /* Info.plist */,
+				27320B2E20B88FA500AF6729 /* ExitAnimation.swift */,
+				27320B3020B8928900AF6729 /* JoyStickController.swift */,
 			);
 			path = Joystick;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27320B1F20B88B5500AF6729 /* ViewController.swift in Sources */,
+				27320B2F20B88FA500AF6729 /* ExitAnimation.swift in Sources */,
 				27320B1D20B88B5500AF6729 /* AppDelegate.swift in Sources */,
+				27320B3120B8928900AF6729 /* JoyStickController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
